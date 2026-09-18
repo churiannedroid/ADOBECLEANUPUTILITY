@@ -44,8 +44,8 @@ It dynamically scans your system directories to apply inbound and outbound firew
  [3] Run BOTH (Uninstall AGS & Apply Firewall Blocks)
  [4] UNBLOCK / REVERT All Adobe Firewall Rules
  [5] Exit
-```text
 ========================================================
+```
 # Getting Started
 
 ## Prerequisites
