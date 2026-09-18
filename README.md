@@ -108,3 +108,7 @@ If you ever need to restore internet functionality to your Adobe apps:
 3. Confirm the action to automatically remove all generated firewall rules.
 
 ---
+
+# Special Thanks To:
+
+**Google Gemini** - For cleaning up the code and providing proper formatting to ensure the script works flawlessly.
