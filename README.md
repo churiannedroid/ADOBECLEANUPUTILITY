@@ -1,6 +1,3 @@
-# ADOBECLEANUPUTILITY
-A lightweight Windows Batch utility to safely uninstall Adobe Genuine Service and dynamically block/unblock internet connections for Adobe Creative Cloud applications using Windows Firewall.
-
 # Adobe Utility: Cleanup & Firewall Manager
 
 A standalone Windows Batch script designed to remove the **Adobe Genuine Service (AGS)** and manage Windows Defender Firewall rules for Adobe applications. 
