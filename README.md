@@ -1,8 +1,23 @@
 # Adobe Utility: Cleanup & Firewall Manager
 
+![Repository Preview](repo.png)
+
 A standalone Windows Batch script designed to remove the **Adobe Genuine Service (AGS)** and manage Windows Defender Firewall rules for Adobe applications. 
 
 It dynamically scans your system directories to apply inbound and outbound firewall block rules, preventing background licensing checks while preserving core offline application features.
+
+---
+
+> ### ⚠️ Disclaimer & Important Notice
+> **Use this script at your own risk.** Modifying firewall configurations and removing software services can alter how installed applications function.
+> 
+> **Impact on Online Features:**
+> Applying firewall connection blocks will completely isolate your Adobe applications from the internet. As a result, **all network-dependent features will be disabled**, including:
+> - Creative Cloud Cloud Sync & Storage
+> - Adobe Stock & Typekit / Adobe Fonts
+> - Neural Filters & Cloud-based Rendering
+> - Firefly AI Generative Tools
+> - Online License Verification & In-App Asset Store
 
 ---
 
