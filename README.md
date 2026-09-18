@@ -44,4 +44,70 @@ It dynamically scans your system directories to apply inbound and outbound firew
  [3] Run BOTH (Uninstall AGS & Apply Firewall Blocks)
  [4] UNBLOCK / REVERT All Adobe Firewall Rules
  [5] Exit
+```text
 ========================================================
+# Getting Started
+
+## Prerequisites
+* **OS:** Windows 10 or Windows 11
+* **Privileges:** Administrator access (required to modify Firewall rules and Windows Services)
+
+## Usage
+1. Clone or download this repository:
+   ```bash
+   git clone [https://github.com/your-username/adobe-cleanup-firewall.git](https://github.com/your-username/adobe-cleanup-firewall.git)
+
+2. Right-click `adobe_manager.bat` and select **Run as Administrator**.
+3. Choose an option from the menu (`1–4`) and enter `Y` when prompted to confirm.
+
+---
+
+# Applications Covered by Firewall Rules
+
+When selecting Option **2** or **3**, the script scans your system (`C:\Program Files\Adobe`, `C:\Program Files (x86)\Adobe`, and `Common Files`) to block inbound and outbound connections for all installed Adobe executables, including:
+
+### Design, Photo & Digital Publishing
+* Adobe Photoshop (All versions / CC 2017 – Present)
+* Adobe Illustrator (All versions / CC 2017 – Present)
+* Adobe InDesign (All versions / CC 2017 – Present)
+* Adobe Lightroom & Lightroom Classic
+* Adobe Photoshop Elements
+
+### Video, Audio & Motion Graphics
+* Adobe After Effects (All versions / CC 2017 – Present)
+* Adobe Premiere Pro (All versions / CC 2017 – Present)
+* Adobe Premiere Elements
+* Adobe Media Encoder
+* Adobe Audition
+* Adobe Character Animator
+
+### Web, 3D, Animation & Documents
+* Adobe Acrobat Pro / Standard / Reader / DC
+* Adobe Animate
+* Adobe Dreamweaver
+* Adobe Substance 3D Collection (Painter, Designer, Stager, Sampler)
+
+### Core Services & Background Processes
+* Adobe Creative Cloud Desktop Application
+* Adobe Content Synchronizer / CoreSync
+* Adobe Genuine Service & GC Client Utilities
+
+---
+
+# How to Verify Firewall Rules
+
+1. Press `Win + R`, type `wf.msc`, and press **Enter** to open *Windows Defender Firewall with Advanced Security*.
+2. Click **Inbound Rules** or **Outbound Rules** in the left sidebar.
+3. Look for rules starting with `Block Adobe -` to confirm active entries.
+
+---
+
+# Unblocking / Reverting
+
+If you ever need to restore internet functionality to your Adobe apps:
+
+1. Launch the script as **Administrator**.
+2. Select Option **`[4] UNBLOCK / REVERT All Adobe Firewall Rules`**.
+3. Confirm the action to automatically remove all generated firewall rules.
+
+---
