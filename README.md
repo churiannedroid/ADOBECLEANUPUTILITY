@@ -52,11 +52,8 @@ It dynamically scans your system directories to apply inbound and outbound firew
 * **OS:** Windows 10 or Windows 11
 * **Privileges:** Administrator access (required to modify Firewall rules and Windows Services)
 
-## Usage
-1. Clone or download this repository:
-   ```bash
-   git clone [https://github.com/your-username/adobe-cleanup-firewall.git](https://github.com/your-username/adobe-cleanup-firewall.git)
-
+### Usage
+1. Go to the **Releases** section on the right side of this repository page and download the latest `.bat` file (or `.zip` release).
 2. Right-click `adobe_manager.bat` and select **Run as Administrator**.
 3. Choose an option from the menu (`1–4`) and enter `Y` when prompted to confirm.
 
